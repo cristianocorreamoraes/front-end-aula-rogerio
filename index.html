@@ -24,7 +24,7 @@
 
     <script>
 
-        axios.get('http://192.168.56.102:8080/api/v1/alunos')
+        axios.get('https://aula-rogerio-backend.azurewebsites.net/api/v1/alunos')
             .then(
                 response => {
                     criaListaDinamica(response.data)
